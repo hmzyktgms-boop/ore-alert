@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "orealert",
+  "version": "1.0.0",
+  "name": "OreAlert",
+  "environment": "server",
+  "entrypoints": { "main": ["com.orealert.OreAlertMod"] },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "fabric-api": "*"
+  }
+}
